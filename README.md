@@ -1,4 +1,4 @@
-# 🐶 Fã Clube do [Nome do Cachorro]
+# 🐶 Fã Clube do Zeus
 
 Bem-vindo ao repositório do **Fã Clube do Zeus!** 🎉  
 Este projeto foi desenvolvido como parte dos estudos de **HTML e CSS** na faculdade, com o objetivo de fixar os conceitos básicos de criação de sites.  
