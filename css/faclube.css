@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+/*Configuração geral do corpo da página*/
+body{
+    background-color: #fefae0;
+    margin: 0 auto;
+    font-family:"Century Gothic", sans-serif;
+}
+
+/*Cabeçalho*/
+header{
+        margin: 0 25%;
+        height: 100px;
+        width: 50%;
+        background-color: #606c38;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/*Título*/
+h1{
+
+        text-align: center;
+        padding: 15px 20px;
+        margin: 30px;
+        font-size:60px;
+        color:#fefae0;
+
+}
+
+/*Conteúdo*/
+section{
+        clear:both;
+        min-height:500px;
+        width:100%;
+        margin-top:0px;
+        /*background-color:red;*/
+}
+
+/*imagem zeus página inicial*/
+.zeus {
+    max-width: 45%;
+    height: auto;
+    margin: 10px 27%;
+    border-radius: 5px;
+    border: 3px solid #606c38;
+}
+
+/*Rodapé*/
+footer{
+        background-color: #ccd5ae;
+        color:#283618;
+        text-align:center;
+        padding: 10px;
+}
+
+/* Estilo para o menu de navegação */
+nav {
+    background-color: #ccd5ae;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/*texto menu naveção*/
+nav a {
+    color:#283618;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 30px;
+    border-radius: 3px;
+}
+
+/*efeito ao passar o mouse*/
+nav a:hover {
+    background-color: #fefae0;
+}
+
+/* Estilo para a tabela de fotos */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin: 10px 25%;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #283618;
+    color: white;
+}
+
+td img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px 25%;
+}
+
+/*Configuração da página inscrição*/
+
+/*posição do formulário na página*/
+form {
+    margin: 20px 25%;
+}
+
+/*distância de cada campo do formulário*/
+.form-grupo {
+    margin-bottom: 30px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.radio-grupo {
+    margin: 10px 0;
+}
+
+.radio-grupo label {
+    display: inline;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+.checkbox-grupo {
+    margin: 15px 0;
+}
+
+.botoes {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="reset"] {
+    background-color: #f44336;
+}
+
+button[type="reset"]:hover {
+    background-color: #d32f2f;
+}

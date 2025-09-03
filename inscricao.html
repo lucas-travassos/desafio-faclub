@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>inscricao</title>
+        <link rel="stylesheet" type="text/css" href="css/faclube.css">
+    </head>
+    <body>
+         <nav>
+            <a href="paginainicial.html">Início</a>
+            <a href="conteudo.html">Conteúdo</a>
+            <a href="inscricao.html">Inscrição</a>
+        </nav>
+        <header>
+            <h1>Inscreva-se no fã clube</h1>
+        </header>       
+        <section>
+            <!-- Formulário de inscrição -->
+            <form action="#" method="post">
+                <!-- Campo Nome -->
+                <div class="form-grupo">
+                    <label for="nome">Nome Completo:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+        
+                <!-- Campo Sexo (radio) -->
+                <div class="form-grupo">
+                    <label>Sexo:</label>
+                    <div class="radio-grupo">
+                        <input type="radio" id="masculino" name="sexo" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                        
+                        <input type="radio" id="feminino" name="sexo" value="feminino">
+                        <label for="feminino">Feminino</label>
+                        
+                        <input type="radio" id="outro" name="sexo" value="outro">
+                        <label for="outro">Elo/Delo</label>
+                    </div>
+                </div>
+                
+                <!-- Campo Data de Nascimento -->
+                <div class="form-grupo">
+                    <label for="data_nascimento">Data de Nascimento:</label>
+                    <input type="date" id="data_nascimento" name="data_nascimento" required>
+                </div>
+                
+                <!-- Campo E-mail -->
+                <div class="form-grupo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <!-- Campo Telefone -->
+                <div class="form-grupo">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                </div>
+                
+                <!-- Checkbox para participação -->
+                <div class="form-grupo checkbox-grupo">
+                    <input type="checkbox" id="participar" name="participar" required>
+                    <label for="participar">Desejo participar do fã-clube.</label>
+                </div>
+                
+                <!-- Botões do formulário -->
+                <div class="botoes">
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+        <footer>Copyright &copy; ADS2025</footer>
+    </body>
+</html>
